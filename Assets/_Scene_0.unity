@@ -828,6 +828,11 @@ PrefabInstance:
       propertyPath: def.projectileColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114684557380802588, guid: d38b8bdef6bb4724e9a7341bda0aad27,
+        type: 3}
+      propertyPath: _type
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d38b8bdef6bb4724e9a7341bda0aad27, type: 3}
 --- !u!1 &1295224114
@@ -1106,6 +1111,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114684557380802588, guid: d38b8bdef6bb4724e9a7341bda0aad27,
+        type: 3}
+      propertyPath: _type
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d38b8bdef6bb4724e9a7341bda0aad27, type: 3}
 --- !u!114 &1808560890 stripped
@@ -1291,6 +1301,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114684557380802588, guid: d38b8bdef6bb4724e9a7341bda0aad27,
+        type: 3}
+      propertyPath: _type
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d38b8bdef6bb4724e9a7341bda0aad27, type: 3}
 --- !u!114 &2031523527 stripped
@@ -1323,6 +1338,7 @@ GameObject:
   - component: {fileID: 2116799375}
   - component: {fileID: 2116799374}
   - component: {fileID: 2116799373}
+  - component: {fileID: 2116799376}
   m_Layer: 8
   m_Name: Shield
   m_TagString: Untagged
@@ -1402,3 +1418,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116799371}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2116799376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116799371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082a6c0e92121ea418a8b7fb25e4f63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationsPerSecond: 0.1
+  levelShown: 0

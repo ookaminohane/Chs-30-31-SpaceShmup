@@ -133,6 +133,8 @@ public class Weapon : MonoBehaviour {
                 p.transform.rotation = Quaternion.AngleAxis(-10, Vector3.back);
                 p.rigid.velocity = p.transform.rotation * vel;
                 break;
+
+
         }
 
     }

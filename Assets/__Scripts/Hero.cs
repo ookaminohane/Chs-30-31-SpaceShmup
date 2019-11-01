@@ -128,7 +128,6 @@ public class Hero : MonoBehaviour {
     }
 
 
-
     // you do not need to adjust Absorb PowerUp 
     public void AbsorbPowerUp(GameObject go)
     {
@@ -136,7 +135,7 @@ public class Hero : MonoBehaviour {
         switch (pu.type)
         {
             case WeaponType.shield:
-                shieldLevel++;
+                _shieldLevel++;
                 break;
 
             default:
