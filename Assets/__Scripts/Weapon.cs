@@ -30,7 +30,7 @@ public class WeaponDefinition
     public string letter; // Letter to show on the power-up
     public Color color = Color.white; // Color of Collar & power-up
     public GameObject projectilePrefab; // Prefab for projectiles
-    public Color projectileColor = Color.white;
+    public Color projectileColor = Color.red;
     public float damageOnHit = 0; // Amount of damage caused
     public float continuousDamage = 0; // Damage per second (Laser)
     public float delayBetweenShots = 0;

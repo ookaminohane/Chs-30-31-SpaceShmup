@@ -62,11 +62,8 @@ public class Hero : MonoBehaviour {
         transform.rotation = Quaternion.Euler(yAxis * pitchMult, xAxis * rollMult, 0);
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {                          
-            TempFire();                                                   
-        }
-
+       
+    
         //TODO: Replace the TempFire call with the weapon delgate call
         // Use the fireDelegate to fire Weapons
         // First, make sure the button is pressed: Axis("Jump")
